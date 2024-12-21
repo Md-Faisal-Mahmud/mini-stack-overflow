@@ -5,6 +5,12 @@ VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniStackOverflow.Web", "src\MiniStackOverflow.Web\MiniStackOverflow.Web.csproj", "{96036F59-F670-4AF5-A472-D961B4B52F67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniStackOverflow.Domain", "src\MiniStackOverflow.Domain\MiniStackOverflow.Domain.csproj", "{DC1C8F63-E049-4985-AF64-745A07BD3CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniStackOverflow.Application", "src\MiniStackOverflow.Application\MiniStackOverflow.Application.csproj", "{BD306E57-0FC9-411C-B6E7-10F7D812DE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniStackOverflow.Infrastructure", "src\MiniStackOverflow.Infrastructure\MiniStackOverflow.Infrastructure.csproj", "{F9D3E924-13C8-446C-9513-5A4D0AF41123}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{96036F59-F670-4AF5-A472-D961B4B52F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96036F59-F670-4AF5-A472-D961B4B52F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96036F59-F670-4AF5-A472-D961B4B52F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1C8F63-E049-4985-AF64-745A07BD3CC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1C8F63-E049-4985-AF64-745A07BD3CC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1C8F63-E049-4985-AF64-745A07BD3CC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1C8F63-E049-4985-AF64-745A07BD3CC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD306E57-0FC9-411C-B6E7-10F7D812DE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD306E57-0FC9-411C-B6E7-10F7D812DE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD306E57-0FC9-411C-B6E7-10F7D812DE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD306E57-0FC9-411C-B6E7-10F7D812DE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D3E924-13C8-446C-9513-5A4D0AF41123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D3E924-13C8-446C-9513-5A4D0AF41123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D3E924-13C8-446C-9513-5A4D0AF41123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D3E924-13C8-446C-9513-5A4D0AF41123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
