@@ -15,4 +15,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MiniStackOverflow.Application\MiniStackOverflow.Application.csproj" />
+    <ProjectReference Include="..\MiniStackOverflow.Infrastructure\MiniStackOverflow.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MiniStackOverflow.Application\MiniStackOverflow.Application.csproj" />
+    <ProjectReference Include="..\MiniStackOverflow.Domain\MiniStackOverflow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
