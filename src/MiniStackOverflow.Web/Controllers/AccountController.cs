@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.WebUtilities;
 using MiniStackOverflow.Infrastructure.Membership;
 using System.Text;
 
-namespace StackOverflow.Web.Controllers
+namespace MiniStackOverflow.Web.Controllers
 {
     public class AccountController : Controller
     {
