@@ -23,4 +23,8 @@
     <ProjectReference Include="..\MiniStackOverflow.Infrastructure\MiniStackOverflow.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Admin\" />
+  </ItemGroup>
+
 </Project>
