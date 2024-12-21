@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MiniStackOverflow.Domain.Entities;
-using MiniStackOverflow.Infrastructure.DataSeeder;
+//using MiniStackOverflow.Infrastructure.DataSeeder;
 using MiniStackOverflow.Infrastructure.Membership;
 
 namespace MiniStackOverflow.Infrastructure
@@ -35,9 +35,9 @@ namespace MiniStackOverflow.Infrastructure
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<User>().HasData(UserProfileSeed.UserProfiles());
-            builder.Entity<ApplicationUser>().HasData(UserSeed.Users());
-            builder.Entity<ApplicationUserClaim>().HasData(UserClaimSeed.Claims());
+            //builder.Entity<User>().HasData(UserProfileSeed.UserProfiles());
+            //builder.Entity<ApplicationUser>().HasData(UserSeed.Users());
+            //builder.Entity<ApplicationUserClaim>().HasData(UserClaimSeed.Claims());
 
             base.OnModelCreating(builder);
         }
