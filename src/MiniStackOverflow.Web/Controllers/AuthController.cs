@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using MiniStackOverflow.Application.Utilities;
 using MiniStackOverflow.Infrastructure.Membership;
+using MiniStackOverflow.Web.Models;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;
@@ -19,7 +20,7 @@ namespace MiniStackOverflow.Web.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IEmailService _emailService;
-        private readonly IConfiguration _configuration;
+
         public AuthController(ILifetimeScope scope,
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
@@ -32,7 +33,6 @@ namespace MiniStackOverflow.Web.Controllers
             _logger = logger;
             _scope = scope;
             _emailService = emailService;
-            _configuration = configuration;
         }
 
         public async Task<IActionResult> RegisterAsync(string returnUrl = null)

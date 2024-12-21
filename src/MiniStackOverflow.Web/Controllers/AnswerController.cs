@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using MiniStackOverflow.Infrastructure.Membership;
+using MiniStackOverflow.Web.Models;
+using MiniStackOverflow.Infrastructure;
 
 
 namespace MiniStackOverflow.Web.Controllers
