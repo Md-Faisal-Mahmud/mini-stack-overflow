@@ -54,7 +54,7 @@ namespace MiniStackOverflow.Web.Models
             Question question = await _questionManagementService.GetQuestionAsync(id);
             if (question != null)
             {
-                _mapper.Map(question, this);
+                _mapper.Map(question, this);  // this = current instance
             }
         }
 

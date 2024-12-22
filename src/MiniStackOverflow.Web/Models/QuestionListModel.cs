@@ -36,7 +36,7 @@ namespace MiniStackOverflow.Web.Models
                 data = (from record in data.records
                         select new string[]
                         {
-                            HttpUtility.HtmlEncode(record.Title),
+                            HttpUtility.HtmlEncode(record.Title),  // prevent script injection
                             HttpUtility.HtmlEncode(record.Body),
                             HttpUtility.HtmlEncode(record.Tag),
                             record.Id.ToString()

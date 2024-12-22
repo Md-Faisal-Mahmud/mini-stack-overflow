@@ -23,6 +23,7 @@ namespace MiniStackOverflow.Web.Controllers
             _scope = scope;
 
         }
+
         [AllowAnonymous]
         public async Task<IActionResult> ConfirmEmail(string userId, string code)
         {
@@ -43,11 +44,13 @@ namespace MiniStackOverflow.Web.Controllers
 
             return RedirectToAction(nameof(EmailConfirmationFailed));
         }
+
         [AllowAnonymous]
         public IActionResult EmailConfirmationFailed(string code = null)
         {
             return View();
         }
+
         [AllowAnonymous]
         public async Task<IActionResult> RegisterConfirmation(string email)
         {
