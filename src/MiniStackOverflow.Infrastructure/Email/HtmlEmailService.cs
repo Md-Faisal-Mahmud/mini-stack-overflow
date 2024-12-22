@@ -3,11 +3,6 @@ using MailKit.Security;
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MiniStackOverflow.Application.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MiniStackOverflow.Infrastructure.Email
 {
